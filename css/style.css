@@ -1,41 +1,49 @@
+
+
+
 body {
+  font-family: 'Poppins', sans-serif;
   margin: 0;
 }
 header {
-  background-color: #373738;
+  background-color:#160350;
   padding: 15px;
 }
 header ul {
+  display: inline-flex;
+  color: #ffffff;
   float: right;
-  color: white;
+  margin-right: 56px;
+  margin-top: 80px;
+  
 }
 header li {
   display: inline-block;
-  padding: 0px 5px;
+  padding: 17px 11px;
+
+
 }
 header p {
-  display: inline-block;
+  display:inline-block;
+  
 }
 .heroImg {
-  background-color: #EBEBEB;
-  padding: 100px 15px;
+  background-image: url(/images/Images/mm.png);
+  background-position: 55%;
+  background-attachment: fixed;
+  background-repeat: repeat-x;
+  padding: 100px 100px;
 }
 .content {
   max-width: 300px;
   margin: 0 auto;
   padding: 50px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   text-align: center;
 }
-button {
-  padding: 15px;
-  background-color: #373738;
-  color: white;
-  font-size: 15px;
-  border-radius: 4px;
-}
+
 footer {
-  background-color: #373738;
+  background-color: #160350;
   padding: 5px;
   color: white;
 }
@@ -55,46 +63,48 @@ footer li {
 /* My UX Skills Section */
 .flexContainer {
   display: flex;
-  padding: 60px 30px;
+  padding: 11px 19px;
+  margin-left: 30px;
+ 
+  
 }
 .flexContainer div {
   width: 33%;
-  padding: 25px;
+  padding: 40px;
+  margin-left: 20px;
 }
+
+
 
 /* My Work Section */
 .myWork {
-  padding: 60px 30px;
-  padding-top: 0;
-  background-color: #EBEBEB;
+ 
+  background-color: #1;
 }
 .workGrid {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 350px 350px 350px;
+  grid-template-rows: 400px 400px 400px;
   grid-template-areas:
   "img1 content1"
   "img2 content2"
-  "img3 content3"
   ;
 }
 .workGrid img {
-  width: 100%;
-  max-width: 250px;
+  width: ;
+  max-width: 400px;
   margin: 0 auto;
   display: block;
 }
 .img1 {
-  grid-area: img1;
+  height: ;
 }
 .img2 {
-  grid-area: img2;
+ height: ;
 }
-.img3 {
-  grid-area: img3;
 }
-.img1, .img2, .img3, .content1, .content2, .content3 {
-  padding: 80px;
+.img1, .img2, .content1, .content2, {
+  padding: 0px;
 }
 .content1 {
   grid-area: content1;
@@ -102,7 +112,5 @@ footer li {
 .content2 {
   grid-area: content2;
 }
-.content3 {
-  grid-area: content3;
-}
+
 
